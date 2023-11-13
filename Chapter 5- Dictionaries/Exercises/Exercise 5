@@ -1,0 +1,16 @@
+#Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the
+#owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about 
+#each pet
+
+pets = [
+    {'kind': 'Turtle', 'owner': 'Dalia'},
+    {'kind': 'Cat', 'owner': 'Ansh'},
+    {'kind': 'Owl', 'owner': 'Sara'},
+    {'kind': 'Fish', 'owner': 'Rabia'},
+]
+
+
+for pet in pets:
+    kind = pet['kind']
+    owner = pet['owner']
+    print(f"This pet is a {kind}, and its owner is {owner}.")
