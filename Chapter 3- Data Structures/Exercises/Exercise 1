@@ -1,4 +1,5 @@
 #Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time.
- names = ["Laiba", "Maryam", "Zuneriah", "Maham"]
- for name in names:
+
+names = ["Laiba", "Maryam", "Zuneriah", "Maham"]
+for name in names:
  print(name)

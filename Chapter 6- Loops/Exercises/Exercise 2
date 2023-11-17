@@ -17,3 +17,4 @@ while True:
             print("Your ticket costs $15.")
     except ValueError:
         print("Invalid input. Please enter a valid age or type 'quit' to exit.")
+12
