@@ -1,0 +1,10 @@
+# Use a dictionary to store information about yourself.
+# Creating a dictionary with information about me
+my_info = {
+    "name": "Anshara",
+    "age": 19,
+    "occupation": "Software Engineer",
+    "interests": ["reading", "ADHD", "coding"],
+    "location": "UAE",
+    "email": "ansharafatima3@gmail.com"
+}
