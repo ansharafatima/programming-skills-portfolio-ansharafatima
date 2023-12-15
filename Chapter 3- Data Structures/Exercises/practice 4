@@ -1,0 +1,11 @@
+#4. Assume the lists numbers1 has 100 elements and numbers2 is an empty list. Write code that
+#copies the values in numbers to numbers2.
+
+numbers1 = [1, 2, 3, ...]  # Assume numbers1 has 100 elements
+numbers2 = []  # Initialize an empty list numbers2
+
+for num in numbers1:
+    numbers2.append(num)  # Append each element from numbers1 to numbers2
+
+# At this point, numbers2 will contain the same values as numbers1
+

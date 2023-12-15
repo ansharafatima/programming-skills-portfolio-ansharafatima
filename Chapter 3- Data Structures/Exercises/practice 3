@@ -1,0 +1,5 @@
+#3. Assume names references a list. Write a for loop that displays each element of the list
+names = ['Charlie', 'Susan', 'Sara', 'Alish']
+
+for name in names:
+    print(name)
