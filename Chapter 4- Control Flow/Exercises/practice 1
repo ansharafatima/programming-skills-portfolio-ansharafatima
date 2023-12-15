@@ -1,0 +1,20 @@
+#1. Write a python program with if statement that assigns 20 to the variable y and assigns 40 to the
+#variable z if the variable a is greater than 100.
+
+# Assuming 'a' is the variable name
+# Assigning some value to 'a' for demonstration purposes
+a = 120
+
+if a > 100:
+    y = 20
+    z = 40
+    print("Variable 'a' is greater than 100")
+    print("y =", y)
+    print("z =", z)
+else:
+    print("Variable 'a' is not greater than 100")
+
+
+
+
+

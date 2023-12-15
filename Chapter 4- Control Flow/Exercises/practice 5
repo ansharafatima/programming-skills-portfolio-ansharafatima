@@ -1,0 +1,24 @@
+#5. Write a Python program that uses the elif statement to determine the season based on the
+#month provided as input.
+month = input("Enter the month (e.g., January, February, etc.): ")
+
+spring_months = ['March', 'April', 'May']
+summer_months = ['June', 'July', 'August']
+fall_months = ['September', 'October', 'November']
+winter_months = ['December', 'January', 'February']
+
+if month in spring_months:
+    season = 'Spring'
+elif month in summer_months:
+    season = 'Summer'
+elif month in fall_months:
+    season = 'Fall'
+elif month in winter_months:
+    season = 'Winter'
+else:
+    season = 'Invalid month'
+
+if season != 'Invalid month':
+    print(f"The season for {month} is {season}.")
+else:
+    print("Please enter a valid month.")

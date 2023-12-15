@@ -11,6 +11,7 @@ guests = ['Zara', 'Fatima', 'Shabana', 'Malaika']
 print("I can only invite two people for dinner.")
 while len(guests) > 2:
    guest= guests.pop()
+   
    print(f"Sorry {guests[1]}, I cant invite you to dinner.")
    print(f"Sorry {guests[2]}, I cant invite you to dinner.")
    print(f"{guests[0]} and {guests[1]}, you're still invited to dinner.")
